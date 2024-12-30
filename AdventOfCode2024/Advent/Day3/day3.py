@@ -7,7 +7,7 @@ filename = "data.txt"
 
 
 def get_all_mul(text):
-    return sum(int(a) * int(b) for a, b in re.findall(r'mul\((-?\d+),(-?\d+)\)', text))
+    return sum(int(a) * int(b) for a, b in re.findall(r"mul\((-?\d+),(-?\d+)\)", text))
 
 
 def get_enabled_all_mul(text):
